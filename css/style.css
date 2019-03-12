@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.avatar {
+    height: 320px;
+    width: 240px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 340px 340px 340px auto;
+    grid-template-rows: 30px 320px 30px;
+    background-color: #e6c6d6;
+}
+
+.photo {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    justify-self: start;
+    align-self: start;
+}
+
+.name {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    justify-self: start;
+    align-self: start;
+}
+
